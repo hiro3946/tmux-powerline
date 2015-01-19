@@ -24,10 +24,10 @@ TMUX_POWERLINE_DEFAULT_RIGHTSIDE_SEPARATOR=${TMUX_POWERLINE_DEFAULT_RIGHTSIDE_SE
 if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
 		#"tmux_session_info 148 234" \
-	        "tmux_session_info 137 255" \
-		"hostname 235 136" \
+	        "tmux_session_info 11 0" \
+		#"hostname 235 136" \
 		#"ifstat 30 255" \
-		"ifstat_sys 137 255" \
+		"ifstat_sys 2 0" \
 		#"lan_ip 24 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN}" \
 		"wan_ip 24 255" \
 		#"vcs_branch 29 253" \
@@ -47,9 +47,9 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		#"cpu 240 136" \
 		"load 137 255" \
 		#"tmux_mem_cpu_load 234 136" \
-		"battery 235 136" \
+		#"battery 235 136" \
 		#"weather 37 255" \
-		"weather 137 255" \
+		#"weather 137 255" \
 		#"rainbarf 0 0" \
 		#"xkb_layout 125 117" \
 		"date_day 235 136" \
